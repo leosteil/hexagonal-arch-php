@@ -1,0 +1,19 @@
+{
+    "name": "leostei/hexagonal-arch-php",
+    "description": "Project to demonstrate hexagonal architecture with php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "leosteil",
+            "email": "lsteil@inf.ufsm.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "HexagonalArch\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    }
+}
